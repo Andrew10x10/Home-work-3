@@ -1,0 +1,154 @@
+.btn {
+    width: 215px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 47px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #696871;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.47px;
+
+}
+
+.header__link:hover {
+    color: black;
+}
+
+.header__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__inline-block {
+    display: inline-block;
+}
+
+.header__inline-block:not(:first-of-type) {
+    margin-left: 49px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-button {
+    text-transform: capitalize;
+    background-color: #FF7143;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: -0.531474px;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.header__nav-button:hover {
+    color: #FF7143;
+    background-color: #ffffff;
+    border: solid 2px #FF7143;
+
+}
+
+/*main*/
+.skateboard-guy{
+    padding: 104px 0 85px;
+    display: flex;
+
+}
+.skateboard-guy__title{
+    padding: 30px 0 30px;
+    width: 467px;
+    height: 231px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    color: #19191B;
+    letter-spacing: -2.50105px;
+}
+.skateboard-guy__description{
+    padding-bottom: 50px;
+    width: 467px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+}
+.skateboard-guy-buttons-flex{
+    display: flex;
+    gap: 35px;
+}
+.skateboard-guy__button {
+    text-transform: capitalize;
+    border: 2px solid #5454D4;
+    color: #ffffff;
+    background-color: #5454D4;
+    letter-spacing: -0.531474px;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.skateboard-guy__button:hover{
+    color: #5454D4;
+    background-color: #ffffff;
+    box-shadow: 0 0 25px 2px #5454D4;
+}
+
+
+/*footer*/
+.footer {
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 53px 0;
+}
+
+.footer__flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #696871;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.47px;
+}
+
+.footer__link:hover {
+    color: black;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+}
+
+.footer__inline-block {
+    display: inline-block;
+    margin-left: 35px;
+}
