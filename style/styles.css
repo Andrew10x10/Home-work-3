@@ -65,8 +65,8 @@
 .header__nav-button:hover {
     color: #FF7143;
     background-color: #ffffff;
-    border: solid 2px #FF7143;
-
+    border: solid 1px #FF7143;
+    box-shadow: 15px 10px 10px 1px #FF7143;
 }
 
 /*main*/
@@ -103,7 +103,7 @@
 }
 .skateboard-guy__button {
     text-transform: capitalize;
-    border: 2px solid #5454D4;
+    border: 1px solid #5454D4;
     color: #ffffff;
     background-color: #5454D4;
     letter-spacing: -0.531474px;
@@ -112,12 +112,11 @@
     font-weight: bold;
 
 }
-.skateboard-guy__button:hover{
+.skateboard-guy__button:hover {
     color: #5454D4;
     background-color: #ffffff;
-    box-shadow: 0 0 25px 2px #5454D4;
+    box-shadow: 15px 10px 10px 1px #5454D4;
 }
-
 
 /*footer*/
 .footer {
@@ -141,6 +140,7 @@
 
 .footer__link:hover {
     color: black;
+
 }
 
 .footer__info {
@@ -151,4 +151,9 @@
 .footer__inline-block {
     display: inline-block;
     margin-left: 35px;
+}
+.Subscription__chart {
+padding-bottom: 210px;
+
+
 }

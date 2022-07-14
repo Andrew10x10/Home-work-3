@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../style/styles.css">
     <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/styles.css">
     <script></script>
     <title>One page</title>
 </head>
@@ -39,12 +39,13 @@
         </button>
     </div>
 </header>
-<main class="main">
+<main>
     <div class="container">
         <section class="skateboard-guy">
             <div class="skateboard-guy__info">
                 <h1 class="skateboard-guy__title">Grow your subscription business</h1>
-                <p class="skateboard-guy__description">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business
+                <p class="skateboard-guy__description">Outcome-centered products that reduce churn, optimize pricing,
+                    and grow your subscription business
                     end-to-end.</p>
                 <div class="skateboard-guy-buttons-flex">
                     <button class="skateboard-guy__button btn">Get Started</button>
@@ -56,34 +57,45 @@
             </div>
         </section>
         <section class="Subscription">
-
+            <div class="img">
+                <img src="../assets/img/chart_9.png" alt="chart" class="Subscription__chart">
+                <img src="../assets/img/pose_11.png" alt="pose">
+            </div>
+            <div class="Subscription__info">
+                <h2 class="Subscription__title">Subscription index</h2>
+                <form action="">
+                    <label for="email">
+                        <input type="email"  id="email" pattern="+@gmail.com" placeholder="Email" autocomplete>
+                    </label>
+                </form>
+            </div>
         </section>
         <section class="price"></section>
     </div>
 </main>
 <footer class="footer">
     <div class="container footer__flex">
-            <div class="footer__logo">
-                <a href="#">
-                    <img src="../assets/img/Logo Color.svg" alt="logo-botoom">
-                </a>
-            </div>
-            <div class="footer__info">
-                <ol class="footer__flex-right">
-                    <li class="footer__inline-block">
-                        <a class="footer__link" href="#">Support</a>
-                    </li>
-                    <li class="footer__inline-block">
-                        <a class="footer__link" href="#">Premium</a>
-                    </li>
-                    <li class="footer__inline-block">
-                        <a class="footer__link" href="#">Pricing</a>
-                    </li>
-                    <li class="footer__inline-block">
-                        <a class="footer__link" href="#">Blog</a>
-                    </li>
-                </ol>
-            </div>
+        <div class="footer__logo">
+            <a href="#">
+                <img src="../assets/img/Logo Color.svg" alt="logo-botoom">
+            </a>
+        </div>
+        <div class="footer__info">
+            <ol class="footer__flex-right">
+                <li class="footer__inline-block">
+                    <a class="footer__link" href="#">Support</a>
+                </li>
+                <li class="footer__inline-block">
+                    <a class="footer__link" href="#">Premium</a>
+                </li>
+                <li class="footer__inline-block">
+                    <a class="footer__link" href="#">Pricing</a>
+                </li>
+                <li class="footer__inline-block">
+                    <a class="footer__link" href="#">Blog</a>
+                </li>
+            </ol>
+        </div>
     </div>
 </footer>
 </body>
