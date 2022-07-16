@@ -204,6 +204,18 @@
     height: 60px;
     border: 1px solid #7087FF;
     border-radius: 10px;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.Subscription__email::placeholder {
+    font-size: 17px;
+    line-height: 22px;
+    color: #19191B;
+}
+
+.Subscription__email:focus {
+    outline: none;
 }
 
 .Subscription__title {
@@ -223,3 +235,104 @@
     gap: 39px;
 }
 
+.some-info__title {
+    height: 128px;
+    max-width: 504px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.some-info {
+    padding-bottom: 110px;
+}
+
+.price__info-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 132px;
+}
+
+.price__info-box {
+    background: #F8F8F8;
+    border-radius: 10px;
+    width: 330px;
+    height: 441px;
+    text-align: center;
+}
+
+.price__info-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.562737px;
+    color: #696871;
+    padding: 34px 0 22px;
+}
+
+.price__info-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+    padding-bottom: 29px;
+}
+
+.price__info-title-1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+    padding-bottom: 38px;
+}
+
+.price__info-small {
+    font-size: 30px;
+}
+
+.price__info-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.531474px;
+    color: #696871;
+    padding-bottom: 33px;
+}
+
+.price__info-button {
+    width: 285px;
+    color: #5454D4;
+    border: 1px solid #EAE9F2;
+    background-color: #ffffff;
+}
+/*.active:active {*/
+    /*background-color: #FF7143;*/
+    /*color: white;*/
+/*}*/
+.price__info-box:hover{
+    background-color: #FF7143;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.price__info-box:hover .price__info-description,
+.price__info-box:hover .price__info-title,
+.price__info-box:hover .price__info-title-1,
+.price__info-box:hover .price__info-item,
+.price__info-box:hover .price__info-box-bottom{
+    transition: .4s;
+    color: #ffffff;
+}
+.price__info-box:hover .price__info-button{
+    background-color: #9F3919;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
