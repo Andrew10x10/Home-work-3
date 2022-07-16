@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="skateboard-guy-right">
-                <img src="./assets/img/pose_7.png" alt="skateboard guy">
+                <img class="skateboard-guy-img" src="./assets/img/pose_7.png" alt="skateboard guy">
             </div>
         </section>
         <section class="Subscription">
@@ -63,11 +63,16 @@
             </div>
             <div class="Subscription__info">
                 <h2 class="Subscription__title">Subscription index</h2>
-                <form action="">
-                    <label for="email">
-                        <input type="email"  id="email" pattern="+@gmail.com" placeholder="Email" autocomplete>
+                <form action="" class="Subscription-form-flex">
+                    <label>
+                        <input type="email" class="Subscription__email" pattern="+@gmail.com"
+                               placeholder="Email" autocomplete>
+                    </label>
+                    <label>
+                        <input type="submit" value="try" class="Subscription__button btn">
                     </label>
                 </form>
+
             </div>
         </section>
         <section class="price"></section>

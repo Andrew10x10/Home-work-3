@@ -67,15 +67,16 @@
     background-color: #ffffff;
     border: solid 1px #FF7143;
     box-shadow: 15px 10px 10px 1px #FF7143;
+    transition: 0.5s;
 }
 
 /*main*/
-.skateboard-guy{
+.skateboard-guy {
     padding: 104px 0 85px;
     display: flex;
-
 }
-.skateboard-guy__title{
+
+.skateboard-guy__title {
     padding: 30px 0 30px;
     width: 467px;
     height: 231px;
@@ -86,7 +87,8 @@
     color: #19191B;
     letter-spacing: -2.50105px;
 }
-.skateboard-guy__description{
+
+.skateboard-guy__description {
     padding-bottom: 50px;
     width: 467px;
     height: 90px;
@@ -97,10 +99,12 @@
     letter-spacing: -0.625263px;
     color: #696871;
 }
-.skateboard-guy-buttons-flex{
+
+.skateboard-guy-buttons-flex {
     display: flex;
     gap: 35px;
 }
+
 .skateboard-guy__button {
     text-transform: capitalize;
     border: 1px solid #5454D4;
@@ -110,12 +114,13 @@
     line-height: 22px;
     font-size: 17px;
     font-weight: bold;
-
 }
+
 .skateboard-guy__button:hover {
     color: #5454D4;
     background-color: #ffffff;
     box-shadow: 15px 10px 10px 1px #5454D4;
+    transition: 0.5s;
 }
 
 /*footer*/
@@ -152,8 +157,69 @@
     display: inline-block;
     margin-left: 35px;
 }
-.Subscription__chart {
-padding-bottom: 210px;
 
+.Subscription {
+    display: flex;
+    gap: 170px;
 
 }
+
+.Subscription__chart {
+    padding-bottom: 210px;
+
+}
+
+.skateboard-guy-img:hover {
+    transform: rotate(50deg);
+    transition: 0.2s;
+}
+
+.Subscription__info {
+    width: 50%;
+    padding-top: 120px;
+}
+
+.Subscription__button {
+    background-color: #5454D4;
+    text-transform: capitalize;
+    color: #ffffff;
+    border: 1px solid #5454D4;
+    letter-spacing: -0.531474px;
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.Subscription__button:hover {
+    background-color: #ffffff;
+    color: #5454D4;
+    box-shadow: 15px 10px 10px 1px #7087FF;
+    transition: 0.5s;
+}
+
+.Subscription__email {
+    box-sizing: border-box;
+    padding-left: 14px;
+    width: 302px;
+    height: 60px;
+    border: 1px solid #7087FF;
+    border-radius: 10px;
+}
+
+.Subscription__title {
+    width: 556px;
+    height: 57px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    padding-bottom: 38px;
+}
+
+.Subscription-form-flex {
+    display: flex;
+    gap: 39px;
+}
+
